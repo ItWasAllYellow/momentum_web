@@ -1,0 +1,119 @@
+{
+  "stocks": [
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "current_price": 53600,
+      "change_rate": -0.0074,
+      "market_cap": 319870000000000,
+      "sector": "반도체",
+      "description": "Global leader in semiconductors and consumer electronics."
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "current_price": 172300,
+      "change_rate": 0.0082,
+      "market_cap": 125400000000000,
+      "sector": "반도체",
+      "description": "Major memory chip manufacturer."
+    },
+    {
+      "code": "035420",
+      "name": "NAVER",
+      "current_price": 212500,
+      "change_rate": 0.0024,
+      "market_cap": 34800000000000,
+      "sector": "IT서비스",
+      "description": "Korea's leading search engine and portal."
+    },
+    {
+      "code": "035720",
+      "name": "카카오",
+      "current_price": 41850,
+      "change_rate": -0.0119,
+      "market_cap": 18600000000000,
+      "sector": "IT서비스",
+      "description": "Dominant mobile messenger and platform company."
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "current_price": 208500,
+      "change_rate": 0.0053,
+      "market_cap": 44100000000000,
+      "sector": "자동차",
+      "description": "Top automotive manufacturer."
+    },
+    {
+      "code": "000270",
+      "name": "기아",
+      "current_price": 86100,
+      "change_rate": 0.0035,
+      "market_cap": 33000000000000,
+      "sector": "자동차",
+      "description": "Major automobile manufacturer."
+    },
+    {
+      "code": "051910",
+      "name": "LG화학",
+      "current_price": 241500,
+      "change_rate": -0.0124,
+      "market_cap": 17100000000000,
+      "sector": "화학",
+      "description": "Leading chemical and battery company."
+    },
+    {
+      "code": "006400",
+      "name": "삼성SDI",
+      "current_price": 246500,
+      "change_rate": -0.0161,
+      "market_cap": 17000000000000,
+      "sector": "배터리",
+      "description": "Battery and electronic materials manufacturer."
+    },
+    {
+      "code": "207940",
+      "name": "삼성바이오로직스",
+      "current_price": 1023000,
+      "change_rate": 0.0089,
+      "market_cap": 72800000000000,
+      "sector": "바이오",
+      "description": "Biopharmaceutical CDMO."
+    },
+    {
+      "code": "068270",
+      "name": "셀트리온",
+      "current_price": 186200,
+      "change_rate": 0.0038,
+      "market_cap": 25700000000000,
+      "sector": "바이오",
+      "description": "Biopharmaceutical company specializing in biosimilars."
+    }
+  ],
+  "correlation": {
+    "005930": {
+      "000660": 0.85,
+      "035420": 0.4,
+      "005380": 0.3
+    },
+    "000660": {
+      "005930": 0.85,
+      "035420": 0.35
+    },
+    "035420": {
+      "035720": 0.75,
+      "005930": 0.4
+    },
+    "035720": {
+      "035420": 0.75
+    },
+    "005380": {
+      "000270": 0.92,
+      "005930": 0.3
+    },
+    "000270": {
+      "005380": 0.92
+    }
+  }
+}

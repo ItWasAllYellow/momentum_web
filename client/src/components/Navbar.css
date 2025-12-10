@@ -1,0 +1,73 @@
+.navbar {
+    background-color: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mode-badge {
+    font-size: 0.8rem;
+    background: var(--background);
+    color: var(--text-sub);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: normal;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-btn {
+    background: none;
+    color: var(--text-sub);
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: var(--radius-sm);
+    transition: all 0.2s;
+}
+
+.nav-btn:hover {
+    background-color: var(--background);
+    color: var(--primary);
+}
+
+.nav-btn.active {
+    background-color: #E6EFFC;
+    color: var(--primary);
+}
+
+.user-profile {
+    margin-left: 20px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    background-color: var(--secondary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
